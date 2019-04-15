@@ -1,0 +1,98 @@
+#app{
+    height: 100%;;
+    font-family: 'Microsoft YaHei';
+    max-width: 750px;
+}
+.flex{
+    display: flex;
+}
+.flex-1{flex: 1;}
+.ule-smallPrice,.ule-bigPrice{
+    color: #ff0236;
+}
+.ule-bigPrice{
+    font-weight: bold;
+}
+.font-blod{
+    font-weight: bold
+}
+.flex-center{
+    justify-content: center;
+    align-items: center;
+}
+.flex-column{
+    flex-direction: column;
+    align-items: center;
+}
+.flex-between{
+    justify-content: space-between;
+    align-items: center;
+}
+.bgf{
+    background-color: #fff;
+}
+.ule-ellipsis{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    -webkit-line-clamp:2 ; 
+  }
+img{max-width: 100%;display: block;}
+img[lazy=loading] {opacity: 0;max-height: 100%;}
+img[lazy=loaded],img[lazy=error] {opacity: 1;transition: opacity .5s ease;}
+img[lazy=error] {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 50%;
+}
+.animated{
+  animation-duration: 0.3s;
+}
+.num-font{
+font-family: Arial, Helvetica, sans-serif;
+
+}
+.redf{
+color: #F00000;
+/* font-weight: bold; */
+}
+.f-12{
+    font-size: 12px;
+}
+.f-16{
+    font-size: 16px;
+}
+.f-18{
+    font-size: 18px;
+}
+.f-14{
+    font-size: 14px;
+}
+.f-24{
+    font-size: 24px;
+}
+.f-32{
+    font-size: 32px;
+}
+.color-9{
+    color: #999;
+}
+.color-6{
+    color: #666;
+}
+.break{
+    word-break: break-all
+}
+.ellipsis{
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    display: block
+}
+.ellipsis2{
+    display: -webkit-box;
+-webkit-box-orient: vertical;
+-webkit-line-clamp: 2;
+overflow: hidden;
+}
